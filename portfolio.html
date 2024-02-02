@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ahmed Adam Faouzi</title>
+    <link rel="stylesheet" href="./portfolioDesign.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+<!-- ========================= Video d'arrière plan =========================== -->
+    
+    <video id="myVideo" autoplay muted loop>
+        <source id="videoSource" src="./BGVideos/video (2160p) (1).mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- <audio controls autoplay src="./Media/Dream Theater - Pull Me Under.mp3"></audio> -->
+
+<!-- ============================ Conteneur central =========================== -->
+
+    <div id="containerHome">
+
+        <div id="containerBtns">
+            <div class="sideBarreDisplay sbdAbout" onclick="displayAbout()">
+                <i class="bi bi-file-earmark-person"></i>
+                <span>About</span>
+            </div>
+            <div class="sideBarreDisplay sbdResume" onclick="displayResume()">
+                <i class="bi bi-journal-text"></i>
+                <span>Resume</span>
+            </div>
+            <div class="sideBarreDisplay sbdSkills" onclick="displaySkills()">
+                <i class="bi bi-code-slash"></i>
+                <span>Skills</span>
+            </div>
+            <div class="sideBarreDisplay sbdProjects" onclick="displayProjects()">
+                <i class="bi bi-journal-code"></i>
+                <span>Projects</span>
+            </div>
+            <div class="sideBarreDisplay sbdContact" onclick="displayContact()">
+                <i class="bi bi-person-lines-fill"></i>
+                <span>Contact</span>
+            </div>
+
+        </div>
+
+        <div id="containerId">
+            <h1 id="name">Ahmed Adam FAOUZI</h1>
+            <p id="role1">Full Stack Developer | Business Analyst</p>
+        </div>
+
+        <!-- ================================ ABOUT ============================ -->
+
+        <div class="containerRubriques" id="about">
+
+            <p class="closeBtn" onclick="closeDisplayAbout()">X</p>
+
+            <h1 style="text-align: center;">ABOUT</h1><br>
+
+            <div id="containerAbout">
+                <div>
+                    <p>Passion. 
+                        That's what describes me. 
+                        My commitment to my work is matched by my commitment to my passion. 
+                        That's what I'm aiming for. 
+                        Passionate about music composition, which I studied for three years at Paul Valery university in france, 
+                        and have been practising since I was a teenager, 
+                        and also excited by intellectual challenges, which I sought out in the various large companies in which I worked for nearly five years after obtaining a master's degree in finance, 
+                        I was able to find my happiness in the development of web applications. 
+                        Thanks to that, I can combine my creativity and my taste for problem solving to develop all kinds of interactive web applications. 
+                        Furthermore, my experience in corporate has taught me to analyse the companies structures, their businesses and the inherent risks in their activities, 
+                        which means that I'm now in a position to respond to companies needs in terms of digitalising their processes and businesses. 
+                        I'am sure that together, we'll be able to open up a new page outside the usual matrix, 
+                        to help the companies all over the world continue to change and adapt to the digital age.</p>
+                    </div>
+                    <img src="./Photos/aboutPicture.png" alt="me" height="100%">
+            </div>
+        </div>
+
+        <!-- ============================= RESUME ============================= -->
+
+        <div class="containerRubriques" id="resume">
+
+            <p class="closeBtn" onclick="closeDisplayResume()">X</p>
+
+            <h1 style="text-align: center;">RESUME</h1><br>
+            
+            
+            <div id="containerResume">
+                <img id="resumePix" src="./Photos/22c.JPG" alt="me" height="300px">
+                <div>
+                    <h3>CAREER</H3>
+                        <br>  
+                        <h4><B class="compagnyName">ArkX Academy</B></h4>  
+                        <p><I>July 2023 - currently :</I> <b>Full Stack Java Developer</b> </p><br>
+                        <ul>
+                        <li>Designing client-side and server-side architecture;</li> 
+                        <li>Developing front-end applications with Angular;</li> 
+                        <li>Building effective microservice APIs with Spring Boot;</li>
+                        <li>Test software to ensure responsiveness and efficiency;</li>
+                        <li>Troubleshoot, debug and upgrade software</li>
+                    </ul>
+                    <br>
+                    <h4><B class="compagnyName">MAZARS Group</B></h4>
+                    <p><I>January 2023 - June 2023 :</I> <b>Central Support Atlas app leader</b></p><br>
+                    <ul>
+                        <li>Team Leading;</li> 
+                        <li>Technical incident management on Atlas Audit Application;</li> 
+                        <li>Testing & implementation of versions and patchs;</li>
+                        <li>Data warehouse management;</li>
+                    </ul>           
+                    <br>
+                    <h4><b class="compagnyName">DELOITTE MOROCCO | BANK OF AFRICA</b></h4>
+                    <p><i>July 2017 - March 2022 :</i> <b>Financial auditor/Analyst</b></p><br>          
+                    <ul>
+                        <li>Gathering financial and economic information;</li> 
+                        <li>Company balance sheet analysis;</li> 
+                        <li>Comparative data analysis;</li>
+                        <li>Interpretation of company value;</li>   
+                        <li>Preparation of buy or sell recommendations;</li>      
+                        <li>In-depth studies in the event of a buyout or sale;</li>   
+                        <li>External auditing missions on financial, hotels, real estates & industries areas;</li>
+                        <li>Special mission partenership with Bank Al Maghrib on financial institutions;</li>
+                    </ul>    
+                    <br>
+            
+                    <h3>CERTIFICATIONS</h3><br>
+        
+                    <p><i><u>July 2023 :</u></i> <b>Certification Full Stack developer Java/Spring/Angular</b> Bootcamp JobIntech, Casablanca, MOROCCO</p><br>
+
+                    <p><i><u>January 2023 :</u></i> <b>Certification Front End developer Html/CSS/Javascript/React JS</b> Bootcamp 3W Academy, Casablanca, MOROCCO</p><br>
+        
+                    <h3>EDUCATION</h3><br>
+                       
+                    <p><i><u>2016 - 2018 :</u></i> <b>Master's degree Banks & finacial markets</b> <b class="compagnyName">Universidad de Cantabria, Santander, SPAIN</b></p><br>
+        
+                    <p><i><u>2016 - 2018 :</u></i> <b>Master's degree Finance</b> <b class="compagnyName">Hassan II University, Casablanca, MOROCCO</b></p><br>
+                    
+                    <p><i><u>2013 - 2016 :</u></i> <b>Bachelor degree Management</b> <b class="compagnyName">Hassan II University, Casablanca, MOROCCO</b></p><br>
+                    
+                    <p><i><u>2010 - 2013 :</u></i> <b>Movie music composition & orchestration</b> <b class="compagnyName">Paul Valéry Univerity, Montpellier, FRANCE</b></p><br>
+                    
+                    <p><i><u>2009 - 2010 :</u></i> <b>Baccalaureat Physics & Chimistry</b> <b class="compagnyName">Institut ENNOUR, Casablanca, MOROCCO</b></p><br>
+            
+            
+                </div>
+            </div>
+        </div>
+
+        <!-- ============================ SKILLS ============================ -->
+        
+        <div class="containerRubriques" id="skills">
+
+            <p class="closeBtn" onclick="closeDisplaySkills()">X</p>
+
+            <h1 style="text-align: center;">SKILLS</h1><br>
+
+            <div class="skillsContainer">
+                <!-- <h2>Programming Languages :</h2> -->
+    
+                <img src="./IconesSvg/java-svgrepo-com.svg" alt="java" height="100px">
+                <img src="./IconesSvg/javascript-logo.svg" alt="javascript" height="100px">
+                <img src="./IconesSvg/typescript.svg" alt="typescript" height="100px">
+                <img src="./IconesSvg/python-5.svg" alt="python" height="100px">
+                <img src="./IconesSvg/sql-database-generic.svg" alt="sql" height="100px">
+    
+                <!-- <h2>Frameworks :</h2> -->
+                
+                <img src="./IconesSvg/spring-icon.svg" alt="spring" height="100px">
+                <img src="./IconesSvg/node-js-svgrepo-com.svg" alt="node" height="100px">
+                <img src="./IconesSvg/react.svg" alt="react" height="100px">
+                <img src="./IconesSvg/react-native-1.svg" alt="react-native" height="100px">
+                <img src="./IconesSvg/angular.svg" alt="angular" height="100px">
+             
+                <!-- <h2>WEB Design</h2> -->
+                
+                <img src="./IconesSvg/html.svg" alt="html" height="100px">
+                <img src="./IconesSvg/css3-svgrepo-com.svg" alt="css" height="100px">
+                <img src="./IconesSvg/bootstrap.svg" alt="bootstrap" height="100px">
+                <img src="./IconesSvg/tailwindcss.svg" alt="tailwindcss" height="100px">
+                <img src="./IconesSvg/docker-4.svg" alt="docker" height="100px">
+                <img src="./IconesSvg/kubernets.svg" alt="kubernets" height="100px">    
+            </div>
+
+
+            </div>
+        </div>
+
+        <!-- ============================ Projects ========================== -->
+
+        <div class="containerRubriques" id="projects">
+
+            <p class="closeBtn" onclick="closeDisplayProjects()">X</p>
+
+            <h1 style="text-align: center;">PROJECTS</h1>
+
+            <div id="containerProjects">
+
+                <div class="cards">
+
+                    <img src="./Projects/Capture d'écran 2024-02-02 054036.png" alt="Budget Management Application"></a><hr>
+                    <h3 style="text-align: center;">budget management application</h3><hr>
+                    
+                    <p style="text-align: justify;"><b>Description :</b> 
+                        Personnal budget management application which helps 
+                        user to handle their month budget by introducing salaries 
+                        and charges and calculate their results.
+                    </p><hr>
+                    
+                    <p><b>Front-end :</b> React Native </p>
+                    
+                    <p><b>Back-end :</b> Java/Spring, Spring Data JPA, Hibernate, Mysql </p>
+
+                </div>
+
+                <div class="cards">
+
+                    <img src="./Projects/auth-music_club.png" alt="Music-Club Authentification page"></a><hr>
+                    <h3 style="text-align: center;">Music-Club Authentification Page</h3><hr>
+                    
+                    <p style="text-align: justify;"><b>Description :</b> The authentification page of a social network which
+                        purpose serves the bond between music lovers by creating posts
+                        by categories : events, proposals ans selling.
+                    </p><hr>
+                    
+                    <p><b>Front-end :</b> React JS </p>
+                    
+                    <p><b>Back-end :</b> Java/Spring, Spring Data JPA, Hibernate, Spring Security, Mysql</p>
+
+                </div>
+
+                <div class="cards">
+
+                    <img src="./Projects/main-music_club.png" alt="Music-Club main page"></a><hr>
+                    <h3 style="text-align: center;">Music-Club Main Page</h3><hr>
+                    
+                    <p style="text-align: justify;"><b>Description :</b> The main page of a social network which
+                        purpose serves the bond between music lovers by creating posts
+                        by categories : events, proposals ans selling.
+                    </p><hr>
+                    
+                    <p><b>Front-end :</b> React JS </p>
+                    
+                    <p><b>Back-end :</b> Java/Spring, Spring Data JPA, Hibernate, Spring Security, Mysql </p>
+                </div>
+
+                <div class="cards">
+
+                    <img style="width: 400px;" src="./Projects/Capture d'écran 2024-02-02 054908.png" alt="E-Commerce"></a><hr>
+                    <h3 style="text-align: center;">E-Commerce Web Site</h3><hr>
+                    
+                    <p style="text-align: justify;"><b>Description :</b> 
+                        E-Commerce Web site template for selling animals products.
+                    </p><hr>
+                    
+                    <p><b>Front-end :</b> Angular </p>
+                    
+                    <p><b>Back-end :</b> Java/Spring, Spring Data JPA, Hibernate, Spring Security, Mysql </p>
+                </div>
+
+
+                <div class="cards">
+                    
+                    <img src="./Projects/simulateur-credit.png" alt="Loaning calculation app"></a><hr>
+                    <h3 style="text-align: center;">Loaning Calculation Application</h3><hr>
+                    
+                    <p style="text-align: justify;"><b>Description :</b> An application that gives the ability to
+                        simulate a loan credit from a bank and it cost monthly.
+                    </p><hr>
+                    
+                    <p><b>Front-end :</b> HTML | CSS | Javascript </p>
+                    
+                    <p><b>Back-end :</b> None </p>
+
+                </div>
+
+            </div>
+
+        
+        </div>
+
+         <!-- ============================ CONTACT ============================ -->
+        
+         <div class="containerRubriques" id="contact">
+
+            <p class="closeBtn" onclick="closeDisplayContact()">X</p>
+
+            <h1 style="text-align: center;">CONTACT</h1><br>
+
+            <br>
+
+            <div>
+                <p>You can reach me through my E-Mail :</p>
+    
+                <a href="mailto:faouzi.adam.l@gmail.com">faouzi.adam.l@gmail.com</a><br><br>
+    
+                <p>Or on my phone number :</p>
+                
+                <a href="tel:+212662182847">+212-662-182-847</a><br><br>
+    
+                <p>You can also reach my contents through GitHub :</p>
+    
+                <a class="" href="https://github.com/FaouziAdam" target="_blank"><i class="bi bi-github"></i></i></a><br><br>
+    
+                <p>Or more details on my journey through LinkedIn :</p>
+    
+                <a class="" href="https://www.linkedin.com/in/ahmed-adam-faouzi/" target="_blank"><i class="bi bi-linkedin"></i></a>
+
+            </div>
+
+        </div>
+
+        <!-- ========================= END ============================ -->
+
+    </div>
+    
+</body>
+<script src="./portfolioLogic.js"></script>
+</html>
